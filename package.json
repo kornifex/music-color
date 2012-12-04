@@ -1,8 +1,8 @@
 {
     "name": "music-color",
-    "version": "1",
+    "version": "1.0.0",
     "dependencies": {
         "socket.io": "~0.9.11",
-        "express": "~3.0.3",
+        "express": "~3.0.3"
     } 
 }

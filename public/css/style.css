@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  background: #eee;
+}
+.wrapper {
+  width: 100%;
+}
+
+.square {
+  background-color: #f7f7f7;
+  background-repeat: no-repeat;
+  background-size: 80% 80%;
+  background-position: center center;
+  margin: .5%;
+
+  display: inline-block;
+}
+
+.square.current {
+  background-color: white;
+}
+
+#player {
+  background-image: url(../images/play.svg);
+}
+#picker {
+  background-image: url(../images/pick.svg);
+}
+#submit {
+  background-image: url(../images/submit.svg);
+}
